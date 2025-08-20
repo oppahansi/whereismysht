@@ -5,7 +5,7 @@ A minimal, offline-first Flutter app to track items you lend or borrow. No accou
 ## Download
 
 coming soon  
-[![Where Is My Sht?](https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png)](https://apps.apple.com/app/id0000000000)
+[<img src="res/GetItOnAppStore_Badge.png" alt="Get it on Google Play" height="55" />](https://apps.apple.com/app/id0000000000)
 [<img src="res/GetItOnGooglePlay_Badge.png" alt="Get it on Google Play" height="55" />](https://play.google.com/store/apps/details?id=de.oppahansi.where_is_my_sht)
 
 ## Features
