@@ -3,8 +3,10 @@
 A minimal, offline-first Flutter app to track items you lend or borrow. No accounts, no cloud, no surprises—just record who borrowed what, when it was returned, and keep a simple history.
 
 ## Download
-- iOS App Store: [Coming soon](https://apps.apple.com/app/id0000000000) (placeholder)
-- Google Play: ![Where Is My Sht?](https://play.google.com/store/apps/details?id=de.oppahansi.where_is_my_sht)
+
+coming soon  
+[![Where Is My Sht?](https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png)](https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png)
+[<img src="res/GetItOnGooglePlay_Badge.png" alt="Get it on Google Play" height="55" />](https://play.google.com/store/apps/details?id=de.oppahansi.where_is_my_sht)
 
 ## Features
 - Home overview with quick sections for Borrowed, Lent, and History
