@@ -4,7 +4,7 @@ A minimal, offline-first Flutter app to track items you lend or borrow. No accou
 
 ## Download
 - iOS App Store: [Coming soon](https://apps.apple.com/app/id0000000000) (placeholder)
-- Google Play: [Coming soon]([https://play.google.com/store/apps/details?id=TODO](https://play.google.com/store/apps/details?id=de.oppahansi.where_is_my_sht))
+- Google Play: ![Where Is My Sht?](https://play.google.com/store/apps/details?id=de.oppahansi.where_is_my_sht)
 
 ## Features
 - Home overview with quick sections for Borrowed, Lent, and History
