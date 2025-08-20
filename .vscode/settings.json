@@ -1,0 +1,24 @@
+{
+    "files.eol": "\n",
+    "arb-editor.suppressedWarnings": [
+      "metadata_for_missing_key",
+      "missing_metadata_for_key",
+      "placeholder_without_metadata"
+    ],
+    "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.dart$",
+        "cmd": "better_imports --files ${fileBasename} -s"
+      }
+    ]
+  },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Dart-Code.dart-code",
+        "editor.rulers": [80],
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+}
