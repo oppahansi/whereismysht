@@ -1,6 +1,6 @@
 // Project Imports
-import 'package:where_is_my_sht/core/models/item_transaction.dart';
-import 'package:where_is_my_sht/core/repos/item_transaction_repo.dart';
+import 'package:lendnborrow/core/models/item_transaction.dart';
+import 'package:lendnborrow/core/repos/item_transaction_repo.dart';
 
 class ItemTransactionService {
   static final ItemTransactionService _instance =
@@ -12,13 +12,13 @@ class ItemTransactionService {
 
   Future<List<ItemTransaction>> getLentItems({bool isClosed = false}) =>
       isClosed
-          ? _repo.getReturnedByType(TransactionType.lent)
-          : _repo.getActiveByType(TransactionType.lent);
+      ? _repo.getReturnedByType(TransactionType.lent)
+      : _repo.getActiveByType(TransactionType.lent);
 
   Future<List<ItemTransaction>> getBorrowedItems({bool isClosed = false}) =>
       isClosed
-          ? _repo.getReturnedByType(TransactionType.borrowed)
-          : _repo.getActiveByType(TransactionType.borrowed);
+      ? _repo.getReturnedByType(TransactionType.borrowed)
+      : _repo.getActiveByType(TransactionType.borrowed);
 
   Future<List<ItemTransaction>> getLostItems() => _repo.getLostItems();
 

@@ -2,7 +2,7 @@
 import "package:sqflite/sqflite.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/db/db.dart";
+import "package:lendnborrow/core/db/db.dart";
 
 class SettingsRepo {
   static final SettingsRepo _instance = SettingsRepo._internal();

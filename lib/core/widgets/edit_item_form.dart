@@ -13,16 +13,16 @@ import "package:intl/intl.dart";
 import "package:material_symbols_icons/symbols.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/models/item_transaction.dart";
-import "package:where_is_my_sht/core/models/item_transaction_image.dart";
-import "package:where_is_my_sht/core/services/item_transaction_service.dart";
-import "package:where_is_my_sht/core/services/item_transaction_image_service.dart";
-import "package:where_is_my_sht/core/provider/item_transaction_provider.dart";
-import "package:where_is_my_sht/core/utils/extensions.dart";
-import "package:where_is_my_sht/core/utils/colors.dart";
-import "package:where_is_my_sht/core/utils/image_utils.dart";
-import "package:where_is_my_sht/core/utils/text_styles.dart";
-import "package:where_is_my_sht/l10n/app_localizations.dart";
+import "package:lendnborrow/core/models/item_transaction.dart";
+import "package:lendnborrow/core/models/item_transaction_image.dart";
+import "package:lendnborrow/core/services/item_transaction_service.dart";
+import "package:lendnborrow/core/services/item_transaction_image_service.dart";
+import "package:lendnborrow/core/provider/item_transaction_provider.dart";
+import "package:lendnborrow/core/utils/extensions.dart";
+import "package:lendnborrow/core/utils/colors.dart";
+import "package:lendnborrow/core/utils/image_utils.dart";
+import "package:lendnborrow/core/utils/text_styles.dart";
+import "package:lendnborrow/l10n/app_localizations.dart";
 
 class EditItemForm extends ConsumerStatefulWidget {
   final ItemTransaction item;

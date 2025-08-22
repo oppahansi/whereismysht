@@ -30,7 +30,7 @@ class BackupChannel: NSObject, UIDocumentPickerDelegate {
             self.dbPath = path
             self.mode = "export"
             self.result = result
-            let _ = args["suggestedName"] as? String ?? "whereismysht_backup.db"
+            let _ = args["suggestedName"] as? String ?? "lendnborrow_backup.db"
             // Present a directory picker if possible; otherwise export to a file the user chooses.
             let picker = UIDocumentPickerViewController(forOpeningContentTypes: [.folder, .item], asCopy: true)
             picker.allowsMultipleSelection = false
@@ -69,7 +69,7 @@ class BackupChannel: NSObject, UIDocumentPickerDelegate {
                 // If user picked a folder, write inside it; if a file, overwrite it.
                 var isDir: ObjCBool = false
                 if FileManager.default.fileExists(atPath: url.path, isDirectory: &isDir), isDir.boolValue {
-                    let dest = url.appendingPathComponent("whereismysht_backup.db")
+                    let dest = url.appendingPathComponent("lendnborrow_backup.db")
                     let data = try Data(contentsOf: URL(fileURLWithPath: dbPath))
                     try data.write(to: dest, options: .atomic)
                     finishWithSuccess(true)

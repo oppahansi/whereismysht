@@ -5,13 +5,13 @@ import "package:flutter/material.dart";
 import "package:flutter_riverpod/flutter_riverpod.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/models/item_transaction.dart";
-import "package:where_is_my_sht/core/provider/item_transaction_provider.dart";
-import "package:where_is_my_sht/feature/borrowed/borrowed_screen.dart";
-import "package:where_is_my_sht/feature/home/item_transactions_section.dart";
-import "package:where_is_my_sht/feature/home/section_title.dart";
-import "package:where_is_my_sht/feature/lent/lent_screen.dart";
-import "package:where_is_my_sht/l10n/app_localizations.dart";
+import "package:lendnborrow/core/models/item_transaction.dart";
+import "package:lendnborrow/core/provider/item_transaction_provider.dart";
+import "package:lendnborrow/feature/borrowed/borrowed_screen.dart";
+import "package:lendnborrow/feature/home/item_transactions_section.dart";
+import "package:lendnborrow/feature/home/section_title.dart";
+import "package:lendnborrow/feature/lent/lent_screen.dart";
+import "package:lendnborrow/l10n/app_localizations.dart";
 
 class HomeSummary extends ConsumerWidget {
   const HomeSummary({super.key});

@@ -2,9 +2,9 @@
 import "package:flutter/material.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/models/settings.dart";
-import "package:where_is_my_sht/core/repos/settings_repo.dart";
-import "package:where_is_my_sht/core/utils/constants.dart";
+import "package:lendnborrow/core/models/settings.dart";
+import "package:lendnborrow/core/repos/settings_repo.dart";
+import "package:lendnborrow/core/utils/constants.dart";
 
 class SettingsService {
   static final SettingsService _instance = SettingsService._internal();

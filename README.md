@@ -1,4 +1,4 @@
-# Where is my Sht?
+# Lend & Borrow
 
 A minimal, offline-first Flutter app to track items you lend or borrow. No accounts, no cloud, no surprises—just record who borrowed what, when it was returned, and keep a simple history.
 
@@ -6,7 +6,7 @@ A minimal, offline-first Flutter app to track items you lend or borrow. No accou
 
 coming soon  
 [<img src="res/GetItOnAppStore_Badge.png" alt="Get it on Google Play" height="55" />](https://apps.apple.com/app/id0000000000)
-[<img src="res/GetItOnGooglePlay_Badge.png" alt="Get it on Google Play" height="55" />](https://play.google.com/store/apps/details?id=de.oppahansi.where_is_my_sht)
+[<img src="res/GetItOnGooglePlay_Badge.png" alt="Get it on Google Play" height="55" />](https://play.google.com/store/apps/details?id=de.oppahansi.lendnborrow)
 
 ## Features
 - Home overview with quick sections for Borrowed, Lent, and History
@@ -53,7 +53,7 @@ See the full policy here: [PRIVACY_POLICY.md](PRIVACY_POLICY.md)
 - Google Play Data Safety: Data collected — No; Data shared — No; Processing — On-device only.
 
 ## License (Short Summary)
-This project uses the “Where is my Sht? Source-Available License.” See [LICENSE](LICENSE) for full terms. In short:
+This project uses the “Lend & Borrow Source-Available License.” See [LICENSE](LICENSE) for full terms. In short:
 - Personal use: You may view, modify, compile, use, and distribute source or binaries for non-commercial/personal use.
 - No commercial distribution of binaries without explicit permission.
 - Share-alike: Derivative works must use the same license, include attribution to oppahansi, and make full source code publicly available.

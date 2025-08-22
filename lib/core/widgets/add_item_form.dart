@@ -13,16 +13,16 @@ import "package:image_picker/image_picker.dart";
 import "package:material_symbols_icons/symbols.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/models/item_transaction.dart";
-import "package:where_is_my_sht/core/models/item_transaction_image.dart";
-import "package:where_is_my_sht/core/services/item_transaction_image_service.dart";
-import "package:where_is_my_sht/core/services/item_transaction_service.dart";
-import "package:where_is_my_sht/core/utils/extensions.dart";
-import "package:where_is_my_sht/core/utils/image_utils.dart";
-import "package:where_is_my_sht/core/utils/text_styles.dart";
-import "package:where_is_my_sht/feature/lent/lent_screen.dart";
-import "package:where_is_my_sht/l10n/app_localizations.dart";
-import "package:where_is_my_sht/main_screen.dart";
+import "package:lendnborrow/core/models/item_transaction.dart";
+import "package:lendnborrow/core/models/item_transaction_image.dart";
+import "package:lendnborrow/core/services/item_transaction_image_service.dart";
+import "package:lendnborrow/core/services/item_transaction_service.dart";
+import "package:lendnborrow/core/utils/extensions.dart";
+import "package:lendnborrow/core/utils/image_utils.dart";
+import "package:lendnborrow/core/utils/text_styles.dart";
+import "package:lendnborrow/feature/lent/lent_screen.dart";
+import "package:lendnborrow/l10n/app_localizations.dart";
+import "package:lendnborrow/main_screen.dart";
 
 class AddItemForm extends ConsumerStatefulWidget {
   const AddItemForm({super.key});

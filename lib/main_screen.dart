@@ -8,17 +8,17 @@ import "package:flutter_riverpod/legacy.dart";
 import "package:material_symbols_icons/symbols.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/provider/item_transaction_provider.dart";
-import "package:where_is_my_sht/core/utils/colors.dart";
-import "package:where_is_my_sht/core/utils/extensions.dart";
-import "package:where_is_my_sht/core/utils/screen_sizes.dart";
-import "package:where_is_my_sht/feature/borrowed/borrowed_screen.dart";
-import "package:where_is_my_sht/feature/history/history_screen.dart";
-import "package:where_is_my_sht/feature/home/home_screen.dart";
-import "package:where_is_my_sht/core/widgets/add_item_form.dart";
-import "package:where_is_my_sht/feature/lent/lent_screen.dart";
-import "package:where_is_my_sht/feature/settings/settings_screen.dart";
-import "package:where_is_my_sht/l10n/app_localizations.dart";
+import "package:lendnborrow/core/provider/item_transaction_provider.dart";
+import "package:lendnborrow/core/utils/colors.dart";
+import "package:lendnborrow/core/utils/extensions.dart";
+import "package:lendnborrow/core/utils/screen_sizes.dart";
+import "package:lendnborrow/feature/borrowed/borrowed_screen.dart";
+import "package:lendnborrow/feature/history/history_screen.dart";
+import "package:lendnborrow/feature/home/home_screen.dart";
+import "package:lendnborrow/core/widgets/add_item_form.dart";
+import "package:lendnborrow/feature/lent/lent_screen.dart";
+import "package:lendnborrow/feature/settings/settings_screen.dart";
+import "package:lendnborrow/l10n/app_localizations.dart";
 
 final currentTabIndexProvider = StateProvider<int>((ref) => 0);
 final lastBackPressedProvider = StateProvider<DateTime?>((ref) => null);

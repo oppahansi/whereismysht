@@ -1,10 +1,10 @@
-# Privacy Policy for “Where is my Sht?”
+# Privacy Policy for “Lend & Borrow”
 
 Effective date: 2025-01-01  
-Contact: whereismysht@pm.me
+Contact: lendnborrow@proton.me
 
 1) Overview
-- “Where is my Sht?” is an offline-first app that runs entirely on-device.
+- “Lend & Borrow” is an offline-first app that runs entirely on-device.
 - No accounts, no cloud, no online services.
 - No analytics, telemetry, crash reporting, tracking, or ads.
 - All data is stored locally on your device and only leaves your device if you explicitly export it.
@@ -57,4 +57,4 @@ See also: [README.md](README.md) and [LICENSE](LICENSE).
 - We may update this policy as needed. Material changes will be reflected in this file with an updated effective date.
 
 12) Contact
-- For questions: whereismysht@pm.me
+- For questions: lendnborrow@proton.me

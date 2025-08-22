@@ -2,13 +2,13 @@
 import "package:flutter/material.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/utils/colors.dart";
-import "package:where_is_my_sht/core/utils/extensions.dart";
-import "package:where_is_my_sht/core/utils/text_styles.dart";
-import "package:where_is_my_sht/feature/settings/ex_import_setting.dart";
-import "package:where_is_my_sht/feature/settings/language_setting.dart";
-import "package:where_is_my_sht/feature/settings/theme_setting.dart";
-import "package:where_is_my_sht/l10n/app_localizations.dart";
+import "package:lendnborrow/core/utils/colors.dart";
+import "package:lendnborrow/core/utils/extensions.dart";
+import "package:lendnborrow/core/utils/text_styles.dart";
+import "package:lendnborrow/feature/settings/ex_import_setting.dart";
+import "package:lendnborrow/feature/settings/language_setting.dart";
+import "package:lendnborrow/feature/settings/theme_setting.dart";
+import "package:lendnborrow/l10n/app_localizations.dart";
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});

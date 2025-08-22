@@ -6,10 +6,10 @@ import "package:flutter_riverpod/flutter_riverpod.dart";
 import "package:material_symbols_icons/symbols.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/provider/settings_service_provider.dart";
-import "package:where_is_my_sht/core/utils/constants.dart";
-import "package:where_is_my_sht/core/utils/extensions.dart";
-import "package:where_is_my_sht/l10n/app_localizations.dart";
+import "package:lendnborrow/core/provider/settings_service_provider.dart";
+import "package:lendnborrow/core/utils/constants.dart";
+import "package:lendnborrow/core/utils/extensions.dart";
+import "package:lendnborrow/l10n/app_localizations.dart";
 
 class ThemeSetting extends ConsumerWidget {
   const ThemeSetting({super.key});

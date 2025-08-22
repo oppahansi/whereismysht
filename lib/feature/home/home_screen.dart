@@ -6,8 +6,8 @@ import "package:flutter/material.dart";
 import "package:flutter_riverpod/flutter_riverpod.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/widgets/debug_settings_controlls.dart";
-import "package:where_is_my_sht/feature/home/home_summary.dart";
+import "package:lendnborrow/core/widgets/debug_settings_controlls.dart";
+import "package:lendnborrow/feature/home/home_summary.dart";
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});

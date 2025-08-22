@@ -2,8 +2,8 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 // Project Imports
-import 'package:where_is_my_sht/core/models/item_transaction.dart';
-import 'package:where_is_my_sht/core/services/item_transaction_service.dart';
+import 'package:lendnborrow/core/models/item_transaction.dart';
+import 'package:lendnborrow/core/services/item_transaction_service.dart';
 
 part 'item_transaction_provider.g.dart';
 

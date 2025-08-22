@@ -5,10 +5,10 @@ import "package:flutter/material.dart";
 import "package:flutter_riverpod/flutter_riverpod.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/models/item_transaction.dart";
-import "package:where_is_my_sht/core/provider/item_transaction_provider.dart";
-import "package:where_is_my_sht/core/widgets/item_transaction_tile.dart";
-import "package:where_is_my_sht/l10n/app_localizations.dart";
+import "package:lendnborrow/core/models/item_transaction.dart";
+import "package:lendnborrow/core/provider/item_transaction_provider.dart";
+import "package:lendnborrow/core/widgets/item_transaction_tile.dart";
+import "package:lendnborrow/l10n/app_localizations.dart";
 
 class ItemTransactionsList extends ConsumerWidget {
   final TransactionType type;

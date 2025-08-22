@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:material_symbols_icons/symbols.dart';
 
 // Project Imports
-import 'package:where_is_my_sht/l10n/app_localizations.dart';
+import 'package:lendnborrow/l10n/app_localizations.dart';
 
 Future<void> showImageModal(BuildContext context, Uint8List bytes) async {
   final localizations = AppLocalizations.of(context)!;

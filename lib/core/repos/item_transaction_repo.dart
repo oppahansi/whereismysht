@@ -1,6 +1,6 @@
 // Project Imports
-import 'package:where_is_my_sht/core/db/db.dart';
-import 'package:where_is_my_sht/core/models/item_transaction.dart';
+import 'package:lendnborrow/core/db/db.dart';
+import 'package:lendnborrow/core/models/item_transaction.dart';
 
 class ItemTransactionRepo {
   static final ItemTransactionRepo _instance = ItemTransactionRepo._internal();

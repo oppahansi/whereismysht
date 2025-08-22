@@ -1,6 +1,6 @@
 // Project Imports
-import 'package:where_is_my_sht/core/models/item_transaction_image.dart';
-import 'package:where_is_my_sht/core/repos/item_transaction_image_repo.dart';
+import 'package:lendnborrow/core/models/item_transaction_image.dart';
+import 'package:lendnborrow/core/repos/item_transaction_image_repo.dart';
 
 class ItemTransactionImageService {
   static final ItemTransactionImageService _instance =

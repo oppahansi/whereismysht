@@ -10,8 +10,8 @@ import "package:sqflite/sqflite.dart";
 import "package:path_provider/path_provider.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/utils/constants.dart";
-import "package:where_is_my_sht/core/db/migrations.dart";
+import "package:lendnborrow/core/utils/constants.dart";
+import "package:lendnborrow/core/db/migrations.dart";
 
 class Db {
   static const int dbVersion = 1;
@@ -112,7 +112,7 @@ class Db {
     String two(int n) => n.toString().padLeft(2, '0');
     final now = DateTime.now();
     final name =
-        "whereismysht_${now.year}${two(now.month)}${two(now.day)}_${two(now.hour)}${two(now.minute)}${two(now.second)}.db";
+        "lendnborrow_${now.year}${two(now.month)}${two(now.day)}_${two(now.hour)}${two(now.minute)}${two(now.second)}.db";
     final dest = File(join(backupsDir.path, name));
     return await File(srcPath).copy(dest.path);
   }

@@ -7,15 +7,15 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 // Project Imports
-import 'package:where_is_my_sht/core/cfg/themes.dart';
-import 'package:where_is_my_sht/core/provider/settings_service_provider.dart';
-import 'package:where_is_my_sht/feature/borrowed/borrowed_screen.dart';
-import 'package:where_is_my_sht/feature/history/history_screen.dart';
-import 'package:where_is_my_sht/feature/home/home_screen.dart';
-import 'package:where_is_my_sht/feature/lent/lent_screen.dart';
-import 'package:where_is_my_sht/feature/settings/settings_screen.dart';
-import 'package:where_is_my_sht/l10n/app_localizations.dart';
-import 'package:where_is_my_sht/main_screen.dart';
+import 'package:lendnborrow/core/cfg/themes.dart';
+import 'package:lendnborrow/core/provider/settings_service_provider.dart';
+import 'package:lendnborrow/feature/borrowed/borrowed_screen.dart';
+import 'package:lendnborrow/feature/history/history_screen.dart';
+import 'package:lendnborrow/feature/home/home_screen.dart';
+import 'package:lendnborrow/feature/lent/lent_screen.dart';
+import 'package:lendnborrow/feature/settings/settings_screen.dart';
+import 'package:lendnborrow/l10n/app_localizations.dart';
+import 'package:lendnborrow/main_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,7 +37,7 @@ class MyApp extends ConsumerWidget {
 
     return settingsAsync.when(
       data: (settings) => MaterialApp(
-        title: "Where Is My Sht",
+        title: "Lend & Borrow",
         themeMode: settings.themeMode,
         theme: light,
         darkTheme: dark,

@@ -1,9 +1,9 @@
-name: where_is_my_sht
+name: lendnborrow
 description: "A minimal, offline-first Flutter app to track items you lend or borrow."
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-version: 1.0.0+3
+version: 1.0.0+4
 
 environment:
   sdk: ^3.8.1
@@ -55,7 +55,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/db/whereismysht.db
+    - assets/db/lendnborrow.db
 
 flutter_intl:
   enabled: true
@@ -65,7 +65,6 @@ flutter_intl:
   synthetic_package: true
 
 better_imports:
-  # File names which should be excluded
   ignore_files:
     - app_localizations
     - app_localizations_de

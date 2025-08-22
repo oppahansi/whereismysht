@@ -2,8 +2,8 @@
 import "package:riverpod_annotation/riverpod_annotation.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/models/settings.dart";
-import "package:where_is_my_sht/core/services/settings_service.dart";
+import "package:lendnborrow/core/models/settings.dart";
+import "package:lendnborrow/core/services/settings_service.dart";
 
 part "settings_service_provider.g.dart";
 

@@ -14,7 +14,7 @@ import "package:material_symbols_icons/symbols.dart";
 import "package:path_provider/path_provider.dart";
 
 // Project Imports
-import "package:where_is_my_sht/l10n/app_localizations.dart";
+import "package:lendnborrow/l10n/app_localizations.dart";
 
 class ImageUtils {
   static const int defaultMaxBytes = 2 * 1024 * 1024; // 2 MB

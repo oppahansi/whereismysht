@@ -5,12 +5,12 @@ import "package:flutter/material.dart";
 import "package:material_symbols_icons/symbols.dart";
 
 // Project Imports
-import "package:where_is_my_sht/core/services/native_backup.dart";
-import "package:where_is_my_sht/core/utils/colors.dart";
-import "package:where_is_my_sht/core/utils/extensions.dart";
-import "package:where_is_my_sht/core/utils/screen_sizes.dart";
-import "package:where_is_my_sht/core/utils/text_styles.dart";
-import "package:where_is_my_sht/l10n/app_localizations.dart";
+import "package:lendnborrow/core/services/native_backup.dart";
+import "package:lendnborrow/core/utils/colors.dart";
+import "package:lendnborrow/core/utils/extensions.dart";
+import "package:lendnborrow/core/utils/screen_sizes.dart";
+import "package:lendnborrow/core/utils/text_styles.dart";
+import "package:lendnborrow/l10n/app_localizations.dart";
 
 class ExImportSetting extends StatelessWidget {
   const ExImportSetting({super.key});

@@ -1,4 +1,4 @@
-package de.oppahansi.where_is_my_sht
+package de.oppahansi.lendnborrow
 
 import android.app.Activity
 import android.content.Intent
@@ -26,7 +26,7 @@ class MainActivity : FlutterActivity() {
 						return@setMethodCallHandler
 					}
 					dbPathArg = call.argument<String>("dbPath")
-					val suggestedName = call.argument<String>("suggestedName") ?: "whereismysht_backup.db"
+					val suggestedName = call.argument<String>("suggestedName") ?: "lendnborrow_backup.db"
 					pendingResult = result
 
 					val intent = Intent(Intent.ACTION_CREATE_DOCUMENT).apply {

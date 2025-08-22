@@ -4,7 +4,7 @@
 import 'package:flutter/services.dart';
 
 // Project Imports
-import 'package:where_is_my_sht/core/db/db.dart';
+import 'package:lendnborrow/core/db/db.dart';
 
 class NativeBackup {
   static const MethodChannel _ch = MethodChannel('app.backup');
@@ -16,7 +16,7 @@ class NativeBackup {
     await Db.close();
     final ok = await _ch.invokeMethod<bool>('exportDb', {
       'dbPath': dbPath,
-      'suggestedName': 'whereismysht_backup.db',
+      'suggestedName': 'lendnborrow_backup.db',
     });
     return ok == true;
   }
