@@ -95,6 +95,7 @@ class _MainScreenState extends ConsumerState<MainScreen> {
           return;
         }
 
+        lastBackPressTime = null;
         SystemNavigator.pop();
       },
       child: SafeArea(
